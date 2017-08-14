@@ -1,0 +1,19 @@
+.site-footer {
+
+}
+
+#makespace-bee {
+	width: 2.5rem;
+	
+	/* makespace wing fill color */
+	.wing-fill{
+		fill: rgba(#fff, 0.2);
+	}
+	
+	/* makespace logo outline color */
+	.makespace-bee-body-outline,
+	.wing-outline,
+	.wing-outline{
+		fill:$makespace-brown;
+	}
+}
