@@ -17,7 +17,7 @@ class MakespaceChild {
 		wp_enqueue_script( 'theme', get_stylesheet_directory_uri() . '/scripts.min.js' );
 		wp_localize_script( 'theme', 'MSWObject', $msw_object );
 
-		//wp_enqueue_style( 'google-fonts', '' );
+		wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans:300,600,700" rel="stylesheet' );
 		wp_enqueue_style( 'theme', get_stylesheet_uri() );
 	}
 
